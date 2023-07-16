@@ -1,0 +1,15 @@
+permalink: index.html
+
+//
+// file: index.adoc
+//
+= Writing Sample
+:sectnums:
+:toc: left
+:toclevels: 3
+
+:toc!:
+
+== Test push
+
+* Hello World
