@@ -443,7 +443,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#_introduction_to_github_pull_requests">Introduction to GitHub pull requests</a></li>
-<li><a href="#_opening_a_pr">Opening a PR</a></li>
+<li><a href="#_opening_a_pull_request">Opening a pull request</a></li>
 <li><a href="#_requesting_a_review">Requesting a review</a></li>
 </ul>
 </div>
@@ -452,7 +452,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This beginners guide describes the steps to open a pull request and requiest a review using the GitHub GUI.</p>
+<p>This beginners guide describes the steps to open a pull request and request a review using the GitHub GUI.</p>
 </div>
 </div>
 </div>
@@ -460,12 +460,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_introduction_to_github_pull_requests">Introduction to GitHub pull requests</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>To request a review of your files, open a pull request and assign the GitHub user who needs to approve the changes.</p>
+<p>A GitHub pull request is a request to merge changes from one branch to another. The pull request build verifies that the branches are compatible for merging.</p>
+</div>
+<div class="paragraph">
+<p>Before a branch is merged, you can request a review of the changed files from specific GitHub users or groups. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_opening_a_pr">Opening a PR</h2>
+<h2 id="_opening_a_pull_request">Opening a pull request</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files against the branch that you want your changes to be merged with.</p>
@@ -479,22 +482,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li>
 <p>You must know the name of the branch that you want to merge your changes into.</p>
 </li>
-<li>
-<p>Your branch must be up to date with the base branch to avoid merge conflicts. Learn more about merge conflicts.</p>
-</li>
 </ul>
 </div>
 <div class="olist arabic">
 <div class="title">Steps</div>
 <ol class="arabic">
 <li>
-<p>Navigate to the GitHub repository that you want to create the pull request in.</p>
+<p>Navigate to the GitHub repository for your branch.</p>
 </li>
 <li>
 <p>Go to the <strong>Pull requests</strong> tab and select <strong>New pull request</strong>.</p>
 </li>
 <li>
-<p>Identify the branches to compare and merge.</p>
+<p>Identify the branches you want to compare and merge.</p>
 <div class="paragraph">
 <p>Set the <strong>base:</strong> and <strong>compare:</strong> branches by selecting the branch name from the drop-down list.</p>
 </div>
@@ -503,6 +503,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <col style="width: 50%;">
 <col style="width: 50%;">
 </colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Branch</th>
+<th class="tableblock halign-left valign-top">Selection</th>
+</tr>
+</thead>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>base:</strong></p></td>
@@ -516,9 +522,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </table>
 </li>
 <li>
-<p>Optionally, perform a final check of your changes at this stage by scrolling to the end of the page to view the changed files.</p>
-<div class="paragraph">
-<p>New text is displayed in green. Removed text is displayed in red.</p>
+<p>You can perform a final check of your changes at this stage by scrolling to the end of the page to view the changed files.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Additions are in green.</p>
+</li>
+<li>
+<p>Deletions are in red.</p>
+</li>
+</ul>
 </div>
 </li>
 <li>
@@ -592,7 +605,7 @@ You do not have to wait for the pull request to finish building to request a rev
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-16 15:53:03 +0100
+Last updated 2023-07-16 17:56:28 +0100
 </div>
 </div>
 </body>

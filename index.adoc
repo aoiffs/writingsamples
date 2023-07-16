@@ -6,34 +6,37 @@
 :toc!:
 
 [lead]
-This beginners guide describes the steps to open a pull request and requiest a review using the GitHub GUI.  
+This beginners guide describes the steps to open a pull request and request a review using the GitHub GUI.  
 
 == Introduction to GitHub pull requests
 
-To request a review of your files, open a pull request and assign the GitHub user who needs to approve the changes. 
+A GitHub pull request is a request to merge changes from one branch to another. The pull request build verifies that the branches are compatible for merging.
 
-== Opening a PR
+Before a branch is merged, you can request a review of the changed files from specific GitHub users or groups. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes. 
+
+== Opening a pull request
 
 Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files against the branch that you want your changes to be merged with. 
 
 .Prerequisites
 
 * You must have the required permissions to open a pull request in the chosen repository. 
-* You must know the name of the branch that you want to merge your changes into. 
-* Your branch must be up to date with the base branch to avoid merge conflicts. Learn more about merge conflicts. 
+* You must know the name of the branch that you want to merge your changes into.  
 
 
 .Steps 
 
-. Navigate to the GitHub repository that you want to create the pull request in. 
+. Navigate to the GitHub repository for your branch. 
+
 . Go to the *Pull requests* tab and select *New pull request*. 
  
-. Identify the branches to compare and merge. 
+. Identify the branches you want to compare and merge. 
 +
 Set the *base:* and *compare:* branches by selecting the branch name from the drop-down list. 
 +
-[cols="1,1"]
+[%header,cols="1,1"]
 |===
+| Branch  | Selection
 |*base:* 
 |The branch that you want to merge your changes into. 
 |*compare:*
@@ -41,9 +44,11 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 
 |===
 
-. Optionally, perform a final check of your changes at this stage by scrolling to the end of the page to view the changed files. 
+. You can perform a final check of your changes at this stage by scrolling to the end of the page to view the changed files. 
 + 
-New text is displayed in green. Removed text is displayed in red.
+* Additions are in green. 
++
+* Deletions are in red.
 
 . Select *Open pull request* to begin building the pull request.   
 +
