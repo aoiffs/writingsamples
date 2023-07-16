@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
-<title>GitHub pull request review guide</title>
+<title>Get started with GitHub pull request reviews</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -438,16 +438,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>GitHub pull request review guide</h1>
+<h1>Get started with GitHub pull request reviews</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_introduction_to_github_pull_requests">1. Introduction to GitHub pull requests</a></li>
-<li><a href="#_opening_a_pr">2. Opening a PR</a></li>
-<li><a href="#_requesting_a_review">3. Requesting a review</a></li>
-<li><a href="#_reviewing_and_approving_prs">4. Reviewing and approving PRs</a></li>
-<li><a href="#_addressing_pr_feedback">5. Addressing PR feedback</a></li>
-<li><a href="#_troubleshooting">6. Troubleshooting</a></li>
+<li><a href="#_introduction_to_github_pull_requests">Introduction to GitHub pull requests</a></li>
+<li><a href="#_opening_a_pr">Opening a PR</a></li>
+<li><a href="#_requesting_a_review">Requesting a review</a></li>
+<li><a href="#_reviewing_and_approving_prs">Reviewing and approving PRs</a></li>
 </ul>
 </div>
 </div>
@@ -455,24 +453,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>A guide to the GitHub peer review process for writers and editors
-This introductory guide describes the peer review process using the GitHub GUI.</p>
+<p>This beginners guide describes the steps to open and review GitHub pull requests.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_introduction_to_github_pull_requests">1. Introduction to GitHub pull requests</h2>
+<h2 id="_introduction_to_github_pull_requests">Introduction to GitHub pull requests</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>To request a review of your files before merging, open a pull request (PR) and assign the GitHub user that you want to approve the changes.  If you are assigned a PR to review, you can leave feedback, request changes, and approve the PR using the GitHub GUI.</p>
+<p>To request a review of your files before merging, open a pull request and assign the GitHub user who needs to approve the changes. If you are assigned a pull request to review, you can leave feedback, request changes, and approve the request using the GitHub GUI.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_opening_a_pr">2. Opening a PR</h2>
+<h2 id="_opening_a_pr">Opening a PR</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files. The pull request is opened against the branch that you want your changes to be merged with. The pull request must finish building before the merge can occur.</p>
+<p>Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files against the branch that you want your changes to be merged with.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
@@ -481,7 +478,10 @@ This introductory guide describes the peer review process using the GitHub GUI.<
 <p>You must have the required permissions to open a pull request in the chosen repository.</p>
 </li>
 <li>
-<p>Before opening the pull request, make sure that your branch is up to date with the base branch, this helps you avoid merge conflicts at later stages.</p>
+<p>Before opening the pull request, make sure that your branch is up to date with the base branch.</p>
+<div class="paragraph">
+<p>Run <code>git pull origin main</code> to confirm your branch is up to date.</p>
+</div>
 </li>
 </ul>
 </div>
@@ -492,33 +492,54 @@ This introductory guide describes the peer review process using the GitHub GUI.<
 <p>Navigate to the GitHub repository that you want to create the pull request in.</p>
 </li>
 <li>
-<p>Go to the Pull requests tab, then select New pull request.</p>
+<p>Go to the <strong>Pull requests</strong> tab and select <strong>New pull request</strong>.</p>
 </li>
 <li>
-<p>Identify the branches to compare and merge. Set the base: and compare: branches by selecting the branch name from the drop down list.</p>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>base:</strong> is the branch that you want to merge with.</p>
+<p>Identify the branches to compare and merge. Set the <strong>base:</strong> and <strong>compare:</strong> branches by selecting the branch name from the drop down list.</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>base:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The branch that you want to merge your changes into.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* <strong>compare:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">The branch that contains your changes.</p></td>
+</tr>
+</tbody>
+</table>
 </li>
 <li>
-<p><strong>compare:</strong> is is the branch that contains your changes.</p>
+<p>Optionally, you can perform a final check of your changes by scrolling to the end of the page to view the changed files.</p>
 </li>
-</ul>
+<li>
+<p>Select <strong>Open pull request</strong> to begin building the pull request. The build time varies depending on the repository.</p>
+<div class="paragraph">
+<p>The merge can begin after the pull request build completes.</p>
 </div>
 </li>
-<li>
-<p>Scroll down to view the changed files and perform a final check of your changes.</p>
-</li>
-<li>
-<p>Select Open pull request. Your pull request starts building. The build time varies depending on the repository.</p>
-</li>
 </ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+You do not have to wait for the pull request to finish building to request a review.
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_requesting_a_review">3. Requesting a review</h2>
+<h2 id="_requesting_a_review">Requesting a review</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Assign a reviewer to the PR to request review and approval of the changed files.</p>
@@ -531,35 +552,34 @@ This introductory guide describes the peer review process using the GitHub GUI.<
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>Steps</p>
-</div>
 <div class="olist arabic">
+<div class="title">Steps</div>
 <ol class="arabic">
 <li>
 <p>Navigate to the repository that contains the pull request that requires review.</p>
 </li>
 <li>
-<p>Go to the Pull requests tab and select the PR you need to assign.</p>
+<p>Go to <strong>Pull requests</strong> tab and select the PR you want to assign the reviewer to.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Under <strong>Reviewers</strong> on the right hand side of the screen, enter the GitHub user name of the reviewer into the textbox. If the reviewer has the correct permissions, their username should appear in the drop-down list.</p>
+</li>
+<li>
+<p>Select the username in the dropdown list to assign the reviewer, a green tick should appear next to the name.</p>
+<div class="paragraph">
+<p>Although the reviewer should get an email notfication of the request, you should let them know about that the review is requested in case the email is directed to their junk folder.</p>
+</div>
+</li>
+</ul>
+</div>
 </li>
 </ol>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_reviewing_and_approving_prs">4. Reviewing and approving PRs</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_addressing_pr_feedback">5. Addressing PR feedback</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_troubleshooting">6. Troubleshooting</h2>
+<h2 id="_reviewing_and_approving_prs">Reviewing and approving PRs</h2>
 <div class="sectionbody">
 
 </div>
@@ -567,7 +587,7 @@ This introductory guide describes the peer review process using the GitHub GUI.<
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-16 14:40:39 +0100
+Last updated 2023-07-16 15:19:34 +0100
 </div>
 </div>
 </body>
