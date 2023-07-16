@@ -536,9 +536,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li>
 <p>Select <strong>Open pull request</strong> to begin building the pull request.</p>
-<div class="paragraph">
-<p>The merge can begin after the pull request build completes, build times vary depending on repository.</p>
-</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -546,7 +543,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="title">Note</div>
 </td>
 <td class="content">
-You do not have to wait for the pull request to finish building to request a review.
+Pull request build times vary depending on the repository. You do not have to wait for the pull request to finish building to request a review.
 </td>
 </tr>
 </table>
@@ -560,13 +557,13 @@ You do not have to wait for the pull request to finish building to request a rev
 <h2 id="_requesting_a_review">Requesting a review</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Assign a reviewer to the pull request to request review and approval of the changed files.</p>
+<p>Assign a reviewer to the pull request to request review and approval of the changed files. You can assign any user or group to a pull request that meets the prerequisites.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
 <ul>
 <li>
-<p>The designated reviewer must have a GitHub user account, and the required permissions for the repository.</p>
+<p>The designated reviewer or group must have a GitHub account and the required permissions for the repository.</p>
 </li>
 </ul>
 </div>
@@ -577,22 +574,34 @@ You do not have to wait for the pull request to finish building to request a rev
 <p>Navigate to the repository that contains the pull request.</p>
 </li>
 <li>
-<p>Go to <strong>Pull requests</strong> tab and select the pull request that needs a reviewer.</p>
+<p>Go to the <strong>Pull requests</strong> tab and select the pull request that requires a review.</p>
 </li>
 <li>
 <p>Assign the pull request.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Under <strong>Reviewers</strong> on the right hand side of the screen, enter the GitHub username of the chosen reviewer into the textbox.</p>
+<p>Under <strong>Reviewers</strong> on the right side of the screen, enter the GitHub user or group name of the chosen reviewer into the textbox.</p>
 <div class="paragraph">
-<p>If the reviewer has the correct permissions, their username should appear in the drop-down list.</p>
+<p>If the reviewer has the correct permissions, the user or group name should appear in the drop-down list.</p>
 </div>
-</li>
-<li>
-<p>Select the username in the drop-down list to assign the reviewer, a green tick appear next to the name when selected.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+A green tick should appear next to the name on the list after it has been selected.
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
-<p>Although the reviewer should get an email notfication of the request, you should confirm that they received the request.</p>
+<p>If necessary, you can assign multiple users or groups to a pull request.</p>
+</div>
+<div class="paragraph">
+<p>Although reviewers recieve an email notfiying them of the review request, you should make sure they are aware that you have requested a review to avoid any unnecessary delays.</p>
 </div>
 </li>
 </ol>
@@ -605,7 +614,7 @@ You do not have to wait for the pull request to finish building to request a rev
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-16 17:56:28 +0100
+Last updated 2023-07-16 18:14:36 +0100
 </div>
 </div>
 </body>

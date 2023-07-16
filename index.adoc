@@ -50,32 +50,32 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 +
 * Deletions are in red.
 
-. Select *Open pull request* to begin building the pull request.   
+. Select *Open pull request* to begin building the pull request.     
 +
-The merge can begin after the pull request build completes, build times vary depending on repository. 
-+
-NOTE: You do not have to wait for the pull request to finish building to request a review.  
+NOTE: Pull request build times vary depending on the repository. You do not have to wait for the pull request to finish building to request a review.  
 
 == Requesting a review
-Assign a reviewer to the pull request to request review and approval of the changed files. 
+Assign a reviewer to the pull request to request review and approval of the changed files. You can assign any user or group to a pull request that meets the prerequisites. 
 
 .Prerequisites
 
-* The designated reviewer must have a GitHub user account, and the required permissions for the repository. 
+* The designated reviewer or group must have a GitHub account and the required permissions for the repository. 
 
 .Steps
 
 . Navigate to the repository that contains the pull request.
-. Go to *Pull requests* tab and select the pull request that needs a reviewer.
+. Go to the *Pull requests* tab and select the pull request that requires a review.
 . Assign the pull request.
 +
-.. Under *Reviewers* on the right hand side of the screen, enter the GitHub username of the chosen reviewer into the textbox. 
+.. Under *Reviewers* on the right side of the screen, enter the GitHub user or group name of the chosen reviewer into the textbox. 
 +
-If the reviewer has the correct permissions, their username should appear in the drop-down list. 
+If the reviewer has the correct permissions, the user or group name should appear in the drop-down list. 
 +
-.. Select the username in the drop-down list to assign the reviewer, a green tick appear next to the name when selected. 
+NOTE: A green tick should appear next to the name on the list after it has been selected. 
 +
-Although the reviewer should get an email notfication of the request, you should confirm that they received the request. 
+If necessary, you can assign multiple users or groups to a pull request.
++
+Although reviewers recieve an email notfiying them of the review request, you should make sure they are aware that you have requested a review to avoid any unnecessary delays. 
 	
 
 
