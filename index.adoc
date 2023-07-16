@@ -1,15 +1,61 @@
-permalink: index.html
 
-//
-// file: index.adoc
-//
-= Writing Sample
+= GitHub pull request review guide
 :sectnums:
 :toc: left
 :toclevels: 3
 
 :toc!:
 
-== Test push
+[lead]
+A guide to the GitHub peer review process for writers and editors
+This introductory guide describes the peer review process using the GitHub GUI. 
 
-* Hello World√
+== Introduction to GitHub pull requests
+
+To request a review of your files before merging, open a pull request (PR) and assign the GitHub user that you want to approve the changes.  If you are assigned a PR to review, you can leave feedback, request changes, and approve the PR using the GitHub GUI.
+
+== Opening a PR
+
+Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files. The pull request is opened against the branch that you want your changes to be merged with. The pull request must finish building before the merge can occur. 
+
+.Prerequisites
+
+•	You must have the required permissions to open a pull request in the chosen repository. 
+•	Before opening the pull request, make sure that your branch is up to date with the base branch, this helps you avoid merge conflicts at later stages.  
+
+
+.Steps
+
+. Navigate to the GitHub repository that you want to create the pull request in. 
+. Go to the Pull requests tab, then select New pull request. 
+ 
+. Identify the branches to compare and merge. Set the base: and compare: branches by selecting the branch name from the drop down list. 
+
+* *base:* is the branch that you want to merge with.
+* *compare:* is is the branch that contains your changes. 
+
+. Scroll down to view the changed files and perform a final check of your changes. 
+. Select Open pull request. Your pull request starts building. The build time varies depending on the repository.  
+
+
+== Requesting a review
+Assign a reviewer to the PR to request review and approval of the changed files. 
+
+.Prerequisites
+
+* The designated reviewer must have a GitHub user account, and the required permissions for the repository. 
+
+Steps
+
+. Navigate to the repository that contains the pull request that requires review.
+. Go to the Pull requests tab and select the PR you need to assign.
+	
+== Reviewing and approving PRs
+== Addressing PR feedback
+
+== Troubleshooting
+
+
+
+
+
