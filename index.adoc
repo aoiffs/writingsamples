@@ -1,42 +1,52 @@
 
-= GitHub pull request review guide
-:sectnums:
+= Get started with GitHub pull request reviews
 :toc: left
 :toclevels: 3
 
 :toc!:
 
 [lead]
-A guide to the GitHub peer review process for writers and editors
-This introductory guide describes the peer review process using the GitHub GUI. 
+This beginners guide describes the steps to open and review GitHub pull requests.  
 
 == Introduction to GitHub pull requests
 
-To request a review of your files before merging, open a pull request (PR) and assign the GitHub user that you want to approve the changes.  If you are assigned a PR to review, you can leave feedback, request changes, and approve the PR using the GitHub GUI.
+To request a review of your files before merging, open a pull request and assign the GitHub user who needs to approve the changes. If you are assigned a pull request to review, you can leave feedback, request changes, and approve the request using the GitHub GUI.
 
 == Opening a PR
 
-Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files. The pull request is opened against the branch that you want your changes to be merged with. The pull request must finish building before the merge can occur. 
+Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files against the branch that you want your changes to be merged with. 
 
 .Prerequisites
 
-•	You must have the required permissions to open a pull request in the chosen repository. 
-•	Before opening the pull request, make sure that your branch is up to date with the base branch, this helps you avoid merge conflicts at later stages.  
+* You must have the required permissions to open a pull request in the chosen repository. 
+* Before opening the pull request, make sure that your branch is up to date with the base branch.  
++
+Run `git pull origin main` to confirm your branch is up to date.
 
 
 .Steps
 
 . Navigate to the GitHub repository that you want to create the pull request in. 
-. Go to the Pull requests tab, then select New pull request. 
+. Go to the *Pull requests* tab and select *New pull request*. 
  
-. Identify the branches to compare and merge. Set the base: and compare: branches by selecting the branch name from the drop down list. 
+. Identify the branches to compare and merge. Set the *base:* and *compare:* branches by selecting the branch name from the drop down list. 
++
+[cols="1,1"]
+|===
+|* *base:* 
+|The branch that you want to merge your changes into. 
+|* *compare:*
+|The branch that contains your changes.  
 
-* *base:* is the branch that you want to merge with.
-* *compare:* is is the branch that contains your changes. 
+|===
 
-. Scroll down to view the changed files and perform a final check of your changes. 
-. Select Open pull request. Your pull request starts building. The build time varies depending on the repository.  
+. Optionally, you can perform a final check of your changes by scrolling to the end of the page to view the changed files. 
 
+. Select *Open pull request* to begin building the pull request. The build time varies depending on the repository.  
++
+The merge can begin after the pull request build completes. 
+
+NOTE: You do not have to wait for the pull request to finish building to request a review. 
 
 == Requesting a review
 Assign a reviewer to the PR to request review and approval of the changed files. 
@@ -45,15 +55,19 @@ Assign a reviewer to the PR to request review and approval of the changed files.
 
 * The designated reviewer must have a GitHub user account, and the required permissions for the repository. 
 
-Steps
+.Steps
 
 . Navigate to the repository that contains the pull request that requires review.
-. Go to the Pull requests tab and select the PR you need to assign.
+. Go to *Pull requests* tab and select the PR you want to assign the reviewer to.
+* Under *Reviewers* on the right hand side of the screen, enter the GitHub user name of the reviewer into the textbox. If the reviewer has the correct permissions, their username should appear in the drop-down list. 
+
+* Select the username in the dropdown list to assign the reviewer, a green tick should appear next to the name. 
++
+Although the reviewer should get an email notfication of the request, you should let them know about that the review is requested in case the email is directed to their junk folder.
 	
 == Reviewing and approving PRs
-== Addressing PR feedback
 
-== Troubleshooting
+
 
 
 
