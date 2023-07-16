@@ -478,10 +478,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>You must have the required permissions to open a pull request in the chosen repository.</p>
 </li>
 <li>
-<p>Before opening the pull request, make sure that your branch is up to date with the base branch.</p>
-<div class="paragraph">
-<p>Run <code>git pull origin main</code> to confirm your branch is up to date.</p>
-</div>
+<p>You must know the name of the branch that you want to merge your changes into.</p>
+</li>
+<li>
+<p>Your branch must be up to date with the base branch to avoid merge conflicts. Learn more about merge conflicts.</p>
 </li>
 </ul>
 </div>
@@ -497,7 +497,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li>
 <p>Identify the branches to compare and merge.</p>
 <div class="paragraph">
-<p>Set the <strong>base:</strong> and <strong>compare:</strong> branches by selecting the branch name from the drop down list.</p>
+<p>Set the <strong>base:</strong> and <strong>compare:</strong> branches by selecting the branch name from the drop-down list.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -518,11 +518,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li>
 <p>Optionally, perform a final check of your changes at this stage by scrolling to the end of the page to view the changed files.</p>
+<div class="paragraph">
+<p>New text is displayed in green. Removed text is displayed in red.</p>
+</div>
 </li>
 <li>
 <p>Select <strong>Open pull request</strong> to begin building the pull request.</p>
 <div class="paragraph">
-<p>The merge can begin after the pull request build completes, build times vary per repository.</p>
+<p>The merge can begin after the pull request build completes, build times vary depending on repository.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -545,7 +548,7 @@ You do not have to wait for the pull request to finish building to request a rev
 <h2 id="_requesting_a_review">Requesting a review</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Assign a reviewer to the PR to request review and approval of the changed files.</p>
+<p>Assign a reviewer to the pull request to request review and approval of the changed files.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
@@ -569,9 +572,9 @@ You do not have to wait for the pull request to finish building to request a rev
 <p>Under <strong>Reviewers</strong> on the right hand side of the screen, enter the GitHub username of the chosen reviewer into the textbox. If the reviewer has the correct permissions, their username should appear in the drop-down list.</p>
 </li>
 <li>
-<p>Select the username in the dropdown list to assign the reviewer, a green tick appear next to the name when selected.</p>
+<p>Select the username in the drop-down list to assign the reviewer, a green tick appear next to the name when selected.</p>
 <div class="paragraph">
-<p>Although the reviewer should get an email notfication of the request, you should let them know about that the review is requested in case the email is directed to their junk folder.</p>
+<p>Although the reviewer should get an email notfication of the request, you should let them know about that the review is requested to avoid any unnecessary delays.</p>
 </div>
 </li>
 </ul>
@@ -590,7 +593,7 @@ You do not have to wait for the pull request to finish building to request a rev
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-16 15:26:26 +0100
+Last updated 2023-07-16 15:38:58 +0100
 </div>
 </div>
 </body>
