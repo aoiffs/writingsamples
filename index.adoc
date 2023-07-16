@@ -1,16 +1,16 @@
 
-= Get started with GitHub pull request reviews
+= Getting started with GitHub pull request reviews
 :toc: left
 :toclevels: 3
 
 :toc!:
 
 [lead]
-This beginners guide describes the steps to open and review GitHub pull requests.  
+This beginners guide describes the steps to open a pull request and requiest a review using the GitHub GUI.  
 
 == Introduction to GitHub pull requests
 
-To request a review of your files before merging, open a pull request and assign the GitHub user who needs to approve the changes. If you are assigned a pull request to review, you can leave feedback, request changes, and approve the request using the GitHub GUI.
+To request a review of your files, open a pull request and assign the GitHub user who needs to approve the changes. 
 
 == Opening a PR
 
@@ -62,13 +62,17 @@ Assign a reviewer to the pull request to request review and approval of the chan
 
 . Navigate to the repository that contains the pull request.
 . Go to *Pull requests* tab and select the pull request that needs a reviewer.
-* Under *Reviewers* on the right hand side of the screen, enter the GitHub username of the chosen reviewer into the textbox. If the reviewer has the correct permissions, their username should appear in the drop-down list. 
-
-* Select the username in the drop-down list to assign the reviewer, a green tick appear next to the name when selected. 
+. Assign the pull request.
 +
-Although the reviewer should get an email notfication of the request, you should let them know about that the review is requested to avoid any unnecessary delays. 
+.. Under *Reviewers* on the right hand side of the screen, enter the GitHub username of the chosen reviewer into the textbox. 
++
+If the reviewer has the correct permissions, their username should appear in the drop-down list. 
++
+.. Select the username in the drop-down list to assign the reviewer, a green tick appear next to the name when selected. 
++
+Although the reviewer should get an email notfication of the request, you should confirm that they received the request. 
 	
-== Reviewing and approving PRs
+
 
 
 
