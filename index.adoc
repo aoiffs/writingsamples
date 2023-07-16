@@ -74,8 +74,10 @@ If the reviewer has the correct permissions, the user or group name should appea
 NOTE: A green tick should appear next to the name on the list after it has been selected. 
 +
 If necessary, you can assign multiple users or groups to a pull request.
+
+. Confirm that the reviewer received your request. 
 +
-Although reviewers recieve an email notfiying them of the review request, you should make sure they are aware that you have requested a review to avoid any unnecessary delays. 
+Although reviewers automatically recieve an email notfiying them of the request, you should confirm that they are aware of the requested review. 
 	
 
 
