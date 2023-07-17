@@ -87,7 +87,7 @@ NOTE: Depending on your requirements, you can assign multiple reviewers to the p
 
 . Confirm that the reviewer received your request. 
 +
-Although reviewers automatically receive an email notifiying them of the request, you should confirm that they are aware of the requested review. 
+Although reviewers automatically receive an email notifying them of the request, you should confirm that they are aware of the requested review. 
 	
 
 
