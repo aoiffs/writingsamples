@@ -6,7 +6,7 @@
 :toc!:
 
 [lead]
-This guide describes the steps to open a pull request and request a review of changed files using GitHub on a browser.  
+This guide describes the steps to open a pull request and request a review of changed files using the GitHub UI.  
 
 == Introduction to GitHub pull requests
 
