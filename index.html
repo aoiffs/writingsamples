@@ -452,7 +452,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This beginners guide describes the steps to open a pull request and request a review using the GitHub GUI.</p>
+<p>This guide describes the steps to open a pull request and request a review of changed files using GitHub on a browser.</p>
 </div>
 </div>
 </div>
@@ -460,7 +460,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_introduction_to_github_pull_requests">Introduction to GitHub pull requests</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>A GitHub pull request is a request to merge changes from one branch to another. The pull request build verifies that the branches are compatible for merging.</p>
+<p>A GitHub pull request is a request to merge changes from one branch into another branch. The pull request build verifies that the branches are compatible for merging. After the pull request has finished building, a user with merging permissions can begin the merge.</p>
 </div>
 <div class="paragraph">
 <p>Before a branch is merged, you can request a review of the changed files from specific GitHub users or groups. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes.</p>
@@ -480,7 +480,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>You must have the required permissions to open a pull request in the chosen repository.</p>
 </li>
 <li>
-<p>You must know the name of the branch that you want to merge your changes into.</p>
+<p>You must know the name of the base branch that you want to merge your changes into.</p>
 </li>
 </ul>
 </div>
@@ -520,9 +520,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 </tbody>
 </table>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+You must make sure that you have selected the correct branch names.
+</td>
+</tr>
+</table>
+</div>
 </li>
 <li>
-<p>You can perform a final check of your changes at this stage by scrolling to the end of the page to view the changed files.</p>
+<p>At this stage, you can perform a final check of your changes by scrolling to the end of the page to view the changed files.</p>
 <div class="ulist">
 <ul>
 <li>
@@ -557,13 +569,13 @@ Pull request build times vary depending on the repository. You do not have to wa
 <h2 id="_requesting_a_review">Requesting a review</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Assign a reviewer to the pull request to request review and approval of the changed files. You can assign any user or group to a pull request that meets the prerequisites.</p>
+<p>Assign a reviewer to the pull request to request review and approval of the changed files. You can assign any user or group that has the required permissions to a pull request.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
 <ul>
 <li>
-<p>The designated reviewer or group must have a GitHub account and the required permissions for the repository.</p>
+<p>The designated reviewer or group must have a GitHub account and the required permissions for the repository. Learn more about GitHub permissions.</p>
 </li>
 </ul>
 </div>
@@ -581,7 +593,7 @@ Pull request build times vary depending on the repository. You do not have to wa
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p>Under <strong>Reviewers</strong> on the right side of the screen, enter the GitHub user or group name of the chosen reviewer into the textbox.</p>
+<p>Under <strong>Reviewers</strong> on the right side of the screen, enter the GitHub user or group name into the textbox.</p>
 <div class="paragraph">
 <p>If the reviewer has the correct permissions, the user or group name should appear in the drop-down list.</p>
 </div>
@@ -617,7 +629,7 @@ A green tick should appear next to the name on the list after it has been select
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-16 18:16:53 +0100
+Last updated 2023-07-17 14:27:26 +0100
 </div>
 </div>
 </body>

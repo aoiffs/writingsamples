@@ -6,11 +6,11 @@
 :toc!:
 
 [lead]
-This beginners guide describes the steps to open a pull request and request a review using the GitHub GUI.  
+This guide describes the steps to open a pull request and request a review of changed files using GitHub on a browser.  
 
 == Introduction to GitHub pull requests
 
-A GitHub pull request is a request to merge changes from one branch to another. The pull request build verifies that the branches are compatible for merging.
+A GitHub pull request is a request to merge changes from one branch into another branch. The pull request build verifies that the branches are compatible for merging. After the pull request has finished building, a user with merging permissions can begin the merge. 
 
 Before a branch is merged, you can request a review of the changed files from specific GitHub users or groups. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes. 
 
@@ -21,7 +21,7 @@ Before you can assign a reviewer, you must open a pull request for the branch th
 .Prerequisites
 
 * You must have the required permissions to open a pull request in the chosen repository. 
-* You must know the name of the branch that you want to merge your changes into.  
+* You must know the name of the base branch that you want to merge your changes into. 
 
 
 .Steps 
@@ -43,8 +43,10 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 |The branch that contains your changes.  
 
 |===
++
+IMPORTANT: You must make sure that you have selected the correct branch names. 
 
-. You can perform a final check of your changes at this stage by scrolling to the end of the page to view the changed files. 
+. At this stage, you can perform a final check of your changes by scrolling to the end of the page to view the changed files. 
 + 
 * Additions are in green. 
 +
@@ -55,11 +57,11 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 NOTE: Pull request build times vary depending on the repository. You do not have to wait for the pull request to finish building to request a review.  
 
 == Requesting a review
-Assign a reviewer to the pull request to request review and approval of the changed files. You can assign any user or group to a pull request that meets the prerequisites. 
+Assign a reviewer to the pull request to request review and approval of the changed files. You can assign any user or group that has the required permissions to a pull request. 
 
 .Prerequisites
 
-* The designated reviewer or group must have a GitHub account and the required permissions for the repository. 
+* The designated reviewer or group must have a GitHub account and the required permissions for the repository. Learn more about GitHub permissions.
 
 .Steps
 
@@ -67,7 +69,7 @@ Assign a reviewer to the pull request to request review and approval of the chan
 . Go to the *Pull requests* tab and select the pull request that requires a review.
 . Assign the pull request.
 +
-.. Under *Reviewers* on the right side of the screen, enter the GitHub user or group name of the chosen reviewer into the textbox. 
+.. Under *Reviewers* on the right side of the screen, enter the GitHub user or group name into the textbox. 
 +
 If the reviewer has the correct permissions, the user or group name should appear in the drop-down list. 
 +
