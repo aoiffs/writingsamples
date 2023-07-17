@@ -42,7 +42,7 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 |===
 | Branch  | Selection
 |*base:* 
-|The branch that you want to merge your changes into. 
+|The branch that you want to update with your changes.
 |*compare:*
 |The branch that contains your changes.  
 
@@ -50,13 +50,13 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 +
 IMPORTANT: Make sure that you select the correct branch names. 
 
-. At this stage, perform a final check of your changes by scrolling to the end of the page to view the files changed. 
+. Perform a final check of your changes by scrolling to the end of the page to view the files changed. 
 + 
 * Additions are in green. 
 +
 * Deletions are in red.
 
-. Select *Open pull request* to begin building the pull request.     
+. Select *Open pull request* to start the pull request build.     
 +
 NOTE: Pull request build times vary depending on the repository. You do not have to wait for the pull request to finish building to request a review.  
 
