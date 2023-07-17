@@ -12,9 +12,11 @@ This foundational guide describes the steps to open a pull request and request a
 
 A GitHub pull request is a request to merge changes from one branch into another branch. A successful pull request build verifies that the branches are compatible for merging.  
 
-By default, any GitHub user with read access can review and request changes on open pull requests. Organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings. link:https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews[Learn more about pull request reviews^].
+By default, any GitHub user with read access can review and request changes on open pull requests. However, organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings. 
 
-You can also request a review of the changed files from specific GitHub users or groups before your branch is merged with another branch. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes.  
+If you want a specific GitHub user or group to review, you can use the steps in this document to assign them to the pull request.   
+
+link:https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews[Learn more about pull request reviews^].
 
 == Opening a pull request
 
@@ -48,7 +50,7 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 +
 IMPORTANT: You must make sure that you select the correct branch names. 
 
-. At this stage, you can perform a final check of your changes by scrolling to the end of the page to view the changed files. 
+. At this stage, perform a final check of your changes by scrolling to the end of the page to view the changed files. 
 + 
 * Additions are in green. 
 +
