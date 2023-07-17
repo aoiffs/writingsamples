@@ -62,13 +62,11 @@ NOTE: Pull request build times vary depending on the repository. You do not have
 
 == Requesting a review
 
-Assign a GitHub user or group to the pull request to request review and approval of the changed files. You can assign any GitHub user or group that has the required repository permissions. 
-
-When a pull request is opened, any GitHub user with the required repository permissions can review the pull request. This procedure details the steps to request a review from a specific GitHub user or group. 
+Assign a GitHub user or group to the pull request to request review and approval of the changed files. You can assign any GitHub user or group that has the required repository permissions as a reviewer. 
 
 .Prerequisites
 
-* The designated reviewer or group must have a GitHub account and the required permissions for the repository. 
+* The designated user or group must have a GitHub account and the required permissions for the repository. 
 * You can only assign a reviewer after the pull request is opened. 
 
 
@@ -83,7 +81,7 @@ Under *Reviewers* on the right side of the screen, enter the GitHub user or grou
 +
 If the reviewer has the correct permissions, the user or group name should appear in the drop-down list. 
 +
-NOTE: A green tick should appear next to the name on the list after it has been selected. 
+A green tick appears next to the name on the list when it is selected. After the reviewer is successfully assigned, their user or group name is listed under *Reviewers*. 
 +
 If necessary, you can assign multiple users or groups to a pull request.
 
