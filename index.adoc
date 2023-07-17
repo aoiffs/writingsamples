@@ -24,7 +24,7 @@ Before you can assign a reviewer, you must open a pull request between the branc
 
 .Prerequisites
 
-* You must have the required permissions to open a pull request in the chosen repository. 
+* You must have the required permissions to open a pull request in the repository. 
 * You must know the name of the branch that you want to merge your changes into. 
 
 
@@ -48,9 +48,9 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 
 |===
 +
-IMPORTANT: You must make sure that you select the correct branch names. 
+IMPORTANT: Make sure that you select the correct branch names. 
 
-. At this stage, perform a final check of your changes by scrolling to the end of the page to view the changed files. 
+. At this stage, perform a final check of your changes by scrolling to the end of the page to view the files changed. 
 + 
 * Additions are in green. 
 +
