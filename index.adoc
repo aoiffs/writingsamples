@@ -82,7 +82,7 @@ If the reviewer has the correct permissions, the user or group name should appea
 +
 A green tick appears next to the name on the list when it is selected. After the reviewer is successfully assigned, their user or group name is listed under *Reviewers*. 
 +
-NOTE: Multiple reviewers can be assigned to a pull request if required.
+NOTE: Depending on your requirements, you can assign multiple reviewers to the pull request.
 
 . Confirm that the reviewer received your request. 
 +
