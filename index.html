@@ -442,7 +442,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_introduction_to_github_pull_requests">Introduction to GitHub pull requests</a></li>
+<li><a href="#_introduction_to_github_pull_request_reviews">Introduction to GitHub pull request reviews</a></li>
 <li><a href="#_opening_a_pull_request">Opening a pull request</a></li>
 <li><a href="#_requesting_a_review">Requesting a review</a></li>
 </ul>
@@ -452,18 +452,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This guide describes the steps to open a pull request and request a review of changed files using the GitHub UI.</p>
+<p>This foundational guide describes the steps to open a pull request and request a review of changed files using the GitHub UI.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_introduction_to_github_pull_requests">Introduction to GitHub pull requests</h2>
+<h2 id="_introduction_to_github_pull_request_reviews">Introduction to GitHub pull request reviews</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>A GitHub pull request is a request to merge changes from one branch into another branch. The pull request build verifies that the branches are compatible for merging. After the pull request has finished building, a user with merging permissions can begin the merge.</p>
+<p>A GitHub pull request is a request to merge changes from one branch into another branch. A successful pull request build verifies that the branches are compatible for merging.</p>
 </div>
 <div class="paragraph">
-<p>Before a branch is merged, you can request a review of the changed files from specific GitHub users or groups. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes.</p>
+<p>By default, any GitHub user with read access can review and request changes on open pull requests. Organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings. <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews" target="_blank" rel="noopener">Learn more about pull request reviews</a>.</p>
+</div>
+<div class="paragraph">
+<p>You can also request a review of the changed files from specific GitHub users or groups before your branch is merged with another branch. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes.</p>
 </div>
 </div>
 </div>
@@ -471,7 +474,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_opening_a_pull_request">Opening a pull request</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files against the branch that you want your changes to be merged with.</p>
+<p>Before you can assign a reviewer, you must open a pull request between the branch that contains the changed files and the branch that you want your changes to be merged with.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
@@ -480,7 +483,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>You must have the required permissions to open a pull request in the chosen repository.</p>
 </li>
 <li>
-<p>You must know the name of the base branch that you want to merge your changes into.</p>
+<p>You must know the name of the branch that you want to merge your changes into.</p>
 </li>
 </ul>
 </div>
@@ -494,7 +497,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Go to the <strong>Pull requests</strong> tab and select <strong>New pull request</strong>.</p>
 </li>
 <li>
-<p>Identify the branches you want to compare and merge.</p>
+<p>Identify the branches that you want to merge.</p>
 <div class="paragraph">
 <p>Set the <strong>base:</strong> and <strong>compare:</strong> branches by selecting the branch name from the drop-down list.</p>
 </div>
@@ -527,7 +530,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="title">Important</div>
 </td>
 <td class="content">
-You must make sure that you have selected the correct branch names.
+You must make sure that you select the correct branch names.
 </td>
 </tr>
 </table>
@@ -569,13 +572,19 @@ Pull request build times vary depending on the repository. You do not have to wa
 <h2 id="_requesting_a_review">Requesting a review</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Assign a reviewer to the pull request to request review and approval of the changed files. You can assign any user or group that has the required permissions to a pull request.</p>
+<p>Assign a GitHub user or group to the pull request to request review and approval of the changed files. You can assign any GitHub user or group that has the required repository permissions.</p>
+</div>
+<div class="paragraph">
+<p>When a pull request is opened, any GitHub user with the required repository permissions can review the pull request. This procedure details the steps to request a review from a specific GitHub user or group.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
 <ul>
 <li>
-<p>The designated reviewer or group must have a GitHub account and the required permissions for the repository. Learn more about GitHub permissions.</p>
+<p>The designated reviewer or group must have a GitHub account and the required permissions for the repository.</p>
+</li>
+<li>
+<p>You can only assign a reviewer after the pull request is opened.</p>
 </li>
 </ul>
 </div>
@@ -625,7 +634,7 @@ A green tick should appear next to the name on the list after it has been select
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-17 14:34:57 +0100
+Last updated 2023-07-17 16:21:49 +0100
 </div>
 </div>
 </body>

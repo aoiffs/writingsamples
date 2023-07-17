@@ -6,22 +6,24 @@
 :toc!:
 
 [lead]
-This guide describes the steps to open a pull request and request a review of changed files using the GitHub UI.  
+This foundational guide describes the steps to open a pull request and request a review of changed files using the GitHub UI.  
 
-== Introduction to GitHub pull requests
+== Introduction to GitHub pull request reviews
 
-A GitHub pull request is a request to merge changes from one branch into another branch. The pull request build verifies that the branches are compatible for merging. After the pull request has finished building, a user with merging permissions can begin the merge. 
+A GitHub pull request is a request to merge changes from one branch into another branch. A successful pull request build verifies that the branches are compatible for merging.  
 
-Before a branch is merged, you can request a review of the changed files from specific GitHub users or groups. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes. 
+By default, any GitHub user with read access can review and request changes on open pull requests. Organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings. link:https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews[Learn more about pull request reviews^].
+
+You can also request a review of the changed files from specific GitHub users or groups before your branch is merged with another branch. To request a review of your files, open a pull request and assign the GitHub user or group that needs to approve the changes.  
 
 == Opening a pull request
 
-Before you can assign a reviewer, you must open a pull request for the branch that contains the changed files against the branch that you want your changes to be merged with. 
+Before you can assign a reviewer, you must open a pull request between the branch that contains the changed files and the branch that you want your changes to be merged with. 
 
 .Prerequisites
 
 * You must have the required permissions to open a pull request in the chosen repository. 
-* You must know the name of the base branch that you want to merge your changes into. 
+* You must know the name of the branch that you want to merge your changes into. 
 
 
 .Steps 
@@ -30,7 +32,7 @@ Before you can assign a reviewer, you must open a pull request for the branch th
 
 . Go to the *Pull requests* tab and select *New pull request*. 
  
-. Identify the branches you want to compare and merge. 
+. Identify the branches that you want to merge. 
 +
 Set the *base:* and *compare:* branches by selecting the branch name from the drop-down list. 
 +
@@ -44,7 +46,7 @@ Set the *base:* and *compare:* branches by selecting the branch name from the dr
 
 |===
 +
-IMPORTANT: You must make sure that you have selected the correct branch names. 
+IMPORTANT: You must make sure that you select the correct branch names. 
 
 . At this stage, you can perform a final check of your changes by scrolling to the end of the page to view the changed files. 
 + 
@@ -57,15 +59,21 @@ IMPORTANT: You must make sure that you have selected the correct branch names.
 NOTE: Pull request build times vary depending on the repository. You do not have to wait for the pull request to finish building to request a review.  
 
 == Requesting a review
-Assign a reviewer to the pull request to request review and approval of the changed files. You can assign any user or group that has the required permissions to a pull request. 
+
+Assign a GitHub user or group to the pull request to request review and approval of the changed files. You can assign any GitHub user or group that has the required repository permissions. 
+
+When a pull request is opened, any GitHub user with the required repository permissions can review the pull request. This procedure details the steps to request a review from a specific GitHub user or group. 
 
 .Prerequisites
 
-* The designated reviewer or group must have a GitHub account and the required permissions for the repository. Learn more about GitHub permissions.
+* The designated reviewer or group must have a GitHub account and the required permissions for the repository. 
+* You can only assign a reviewer after the pull request is opened. 
+
 
 .Steps
 
-. Navigate to the repository that contains the pull request.
+. Navigate to the repository that contains the pull request. 
+
 . Go to the *Pull requests* tab and select the pull request that requires a review.
 . Assign the pull request.
 +
