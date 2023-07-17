@@ -12,7 +12,7 @@ This foundational guide describes the steps to open a pull request and request a
 
 A GitHub pull request is a request to merge changes from one branch to another. A successful pull request build verifies that the branches are compatible for merging.  
 
-By default, any GitHub user with read access for a repository can review and request changes on open pull requests in that repository. However, organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings. 
+By default, any GitHub user with read access for a repository can review and request changes on open pull requests in that repository. However, organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository administrator for guidance on specific questions about your repository settings. 
 
 To request a review from a specific GitHub user or group, you can assign them as a reviewer on the pull request.   
 
