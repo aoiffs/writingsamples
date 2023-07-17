@@ -67,7 +67,7 @@ You can assign a specific GitHub user or group to the pull request to request re
 .Prerequisites
  
 * The reviewer must have a GitHub account and the required permissions for the repository. 
-* You must know the GitHub user or group name of the reviewer you want to assign.
+* You must know the GitHub user or group name of the reviewer that you want to assign.
 * You can only assign a reviewer after the pull request is opened. 
 
 .Steps
