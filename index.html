@@ -463,7 +463,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>A GitHub pull request is a request to merge changes from one branch into another branch. A successful pull request build verifies that the branches are compatible for merging.</p>
 </div>
 <div class="paragraph">
-<p>By default, any GitHub user with read access can review and request changes on open pull requests. However, organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings.</p>
+<p>By default, any GitHub user with read access for a repository can review and request changes on open pull requests in that repository. However, organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings.</p>
 </div>
 <div class="paragraph">
 <p>If you want a specific GitHub user or group to review, you can use the steps in this document to assign them to the pull request.</p>
@@ -575,7 +575,7 @@ Pull request build times vary depending on the repository. You do not have to wa
 <h2 id="_requesting_a_review">Requesting a review</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Assign a GitHub user or group to the pull request to request review and approval of the changed files. You can assign any GitHub user or group that has the required repository permissions as a reviewer.</p>
+<p>You can assign a specific GitHub user or group to the pull request to request review and approval of the changed files.</p>
 </div>
 <div class="ulist">
 <div class="title">Prerequisites</div>
@@ -608,8 +608,17 @@ Pull request build times vary depending on the repository. You do not have to wa
 <div class="paragraph">
 <p>A green tick appears next to the name on the list when it is selected. After the reviewer is successfully assigned, their user or group name is listed under <strong>Reviewers</strong>.</p>
 </div>
-<div class="paragraph">
-<p>If necessary, you can assign multiple users or groups to a pull request.</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Multiple reviewers can be assigned to a pull request if required.
+</td>
+</tr>
+</table>
 </div>
 </li>
 <li>
@@ -625,7 +634,7 @@ Pull request build times vary depending on the repository. You do not have to wa
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-17 17:07:28 +0100
+Last updated 2023-07-17 17:13:04 +0100
 </div>
 </div>
 </body>

@@ -12,7 +12,7 @@ This foundational guide describes the steps to open a pull request and request a
 
 A GitHub pull request is a request to merge changes from one branch into another branch. A successful pull request build verifies that the branches are compatible for merging.  
 
-By default, any GitHub user with read access can review and request changes on open pull requests. However, organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings. 
+By default, any GitHub user with read access for a repository can review and request changes on open pull requests in that repository. However, organizations and repository administrators can limit and control who can request changes on open pull requests. Refer to your organization or repository adminstrator for guidance on specific questions about your repository settings. 
 
 If you want a specific GitHub user or group to review, you can use the steps in this document to assign them to the pull request.   
 
@@ -62,13 +62,12 @@ NOTE: Pull request build times vary depending on the repository. You do not have
 
 == Requesting a review
 
-Assign a GitHub user or group to the pull request to request review and approval of the changed files. You can assign any GitHub user or group that has the required repository permissions as a reviewer. 
+You can assign a specific GitHub user or group to the pull request to request review and approval of the changed files. 
 
 .Prerequisites
 
 * The designated user or group must have a GitHub account and the required permissions for the repository. 
 * You can only assign a reviewer after the pull request is opened. 
-
 
 .Steps
 
@@ -83,7 +82,7 @@ If the reviewer has the correct permissions, the user or group name should appea
 +
 A green tick appears next to the name on the list when it is selected. After the reviewer is successfully assigned, their user or group name is listed under *Reviewers*. 
 +
-If necessary, you can assign multiple users or groups to a pull request.
+NOTE: Multiple reviewers can be assigned to a pull request if required.
 
 . Confirm that the reviewer received your request. 
 +
